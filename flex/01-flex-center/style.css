@@ -3,12 +3,17 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /*新增以下程式碼*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   background: palevioletred;
   font-weight: bold;
   text-align: center;
+  justify-content: center;
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
