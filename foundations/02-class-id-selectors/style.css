@@ -1,0 +1,26 @@
+.N1{
+    font-size: 12px;
+}
+#N2{
+    color: blue;
+    font-size: 24px;
+    font-weight: 500;
+}
+.N3{
+    font-size: 18px;
+}
+#N4{
+    background-color: lightgreen;
+    font-weight:900;
+}
+.N5{
+    font-size: 12px;
+}
+p{
+    background-color:lightpink;
+}
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
