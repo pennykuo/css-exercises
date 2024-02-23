@@ -5,7 +5,40 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+ul{
+  display: flex;
+  justify-content: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;/*把原本型態改成none 讓黑點消失*/
+  gap:10px;/*讓兩個字之間有間距*/
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;/*把中間位置grow*/
+}
+a{
+  text-decoration: none;
+  color:dimgrey;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 180px; */
+}
+
 
 img {
   width: 600px;
